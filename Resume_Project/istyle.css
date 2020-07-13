@@ -1,0 +1,93 @@
+
+body{
+	font-family: sans-serif;
+	font-size: 30px;
+	margin: 0px;
+}
+/*Body Header*/
+#body-header{
+	height: 65vh;
+	background-size: cover;
+	background-position: center;
+	background-image: url(image/macbook_mouse.jpg);
+	background-attachment: fixed;
+	color: white;
+	opacity: 0.8;
+
+}
+/*Horizontal; List*/
+.horizontal-list{
+	list-style: none;
+	padding-left: 0px;
+	padding-top: 15px;
+
+}
+.horizontal-list li{
+	display: inline-block;
+	margin: 0px 8px 8px 0px;
+}
+.horizontal-list li a{
+	color: white;
+	text-decoration: none;
+	transition: color 1s;
+}
+.horizontal-list li a:hover {
+	color: orange;
+	text-decoration: none;
+}
+.text-center{
+	text-align: center;
+}
+/*Name and social contacts*/
+#name-social-container{
+    margin-top: 20vh;
+}
+#name{
+	font-size: 3rem;
+	letter-spacing: 0.1rem;
+	color: white;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+}
+.social-icons li a {
+	color: black;
+	padding: 10px;
+	font-size: 1rem;
+	border-radius: 50%;
+}
+.social-icons li a:hover {
+	box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+#about{
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+#my-image{
+	height: 12rem;
+	width: 12rem;
+	margin: auto;
+	margin-top: -17vh;
+}
+#my-image img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	/*border: 2px solid black;*/
+	box-shadow: 0px 0px 6px 6px rgba(230, 196, 196, 0.3);
+}
+#about p{
+	margin-left: 20%;
+	margin-right: 20%;
+	/*color: white;*/
+	/*background-color: skyblue;*/
+	display: inline-block;
+	/*text-overflow: auto;*/
+	text-align: center;
+	overflow-wrap: all;
+	 text-align: justify;
+  /*text-justify: inter-word;*/
+
+
+
+}
